@@ -1,0 +1,76 @@
+<!doctyle HTML>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Identify | SustainabiliTree</title>
+    <!--ADD CSS AND HTML FILES HERE-->
+    <link rel="stylesheet" href="styles/home.css"/>
+    <link rel="stylesheet" href="styles/styles.css"/>
+    <link rel="stylesheet" href="styles/navbar.css"/>
+    <link rel="stylesheet" href="styles/footer.css"/>
+    <script type="text/javascript" src="scripts/identify.js"></script>
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <div id="navbar" class="nav-grid">
+      <div class="navGrid-logowrapper">
+        <a href="index.html"><img src="assets/sustaintreelogo.png" class="logo"></a>
+        <h2>SustainabiliTree</h2>
+      </div>
+      <div>
+        <div class="navGrid-inner">
+          <a href="carboncalc.html">CarbonCalc</a>
+          <a href="identify.html">Identify</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="identifyChart">
+      <h2>Identify whether these items are recyclable or non-recyclable.</h2>
+      <br>
+
+      <div id="chart">
+        <div id="imgdiv">
+          <img src="assets/paper.jpg" class="chartimg" id="chartimage">
+        </div>
+        <div id="selectdiv">
+          <div class="grid2">
+            <button onclick="recycle()">Recylce</button>
+            <button onclick="trash()">Trash</button>
+          </div>
+        </div>
+        <div id="solvediv">
+          <div class="grid2">
+            <button onclick="pointscalc()">Calculate Points</button>
+            <h4 id="answer"></h4>
+            <h4 id="points"></h4>
+          </div>
+        </div>
+      </div>
+
+      <div></div>
+
+    </div>
+
+    <div id="purpose">
+      <h5>Many people do not understand what items are recyclable and which items are not. In fact, 18% of people do not understand this.
+      However, it is crucial to understand which materials can be and which can't as it can cost our planet and lives a great deal. With the advent of climate change
+      and pollution, landfills have increased in size and have taken up a large extent of space but also emitting lots of carbon dioxide and methane as landfill gasses.
+      90-98% of all landfill gases are carbon dioxide and methane. These two gases are also greenhouse gases which break down layers in our ozone, increasing climate change
+      and global warming by letting in harmful UV rays.</h5
+    </div>
+
+  </body>
+
+</html>

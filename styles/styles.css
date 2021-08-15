@@ -1,0 +1,190 @@
+*{
+  margin:0;
+}
+body{
+  background-color: #e3e5df;
+}
+
+.nav-grid{
+  display:grid;
+  grid-template-columns: 50% 50%;
+  text-align: right;
+  font-family: "Barlow Semi Condensed";
+  padding:2% 1%;
+  background-color: #e3e5df;
+}
+.navGrid-inner{
+  margin-top:20px;
+}
+#navbar h2{
+  text-align:left;
+  margin-left:20px;
+  color:#28773d;
+  font-family: 'Roboto Condensed';
+  font-size: 30px;
+}
+.navGrid-inner a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  margin:10px;
+  padding:0% 1% 1% 1%;
+  font-size: 18px;
+}
+.navGrid-inner a:hover{
+  border-bottom: 4px solid #3ee969;
+}
+
+
+#landing{
+  font-family: "Roboto Condensed";
+  font-size: 75px;
+  padding:6% 2%;
+}
+#landing h4{
+  font-size:20px;
+  padding:0% 1%;
+  margin-bottom: 3%;
+  width:65%;
+}
+#landing a{
+  background-color: #3ee969;
+  font-size: 25px;
+  margin:0% 1%;
+  color:black;
+  text-decoration: none;
+  padding:1%;
+  box-shadow: 5px 5px 5px #c9c9c9;
+}
+#landing a:hover{
+  color:white;
+  background-color: #35cc5b;
+}
+#calculator{
+  padding:0% 4%;
+  text-align:center;
+  margin-top:2%;
+  font-family: "Roboto Condensed";
+  margin: 2% 5%;
+  background-color: #3d754c;
+}
+#header h2{
+  padding:1% 0%;
+  font-size: 30px;
+  padding:0% 4%;
+  text-align:center;
+  margin-top:2%;
+  font-family: "Roboto Condensed";
+  margin: 2% 5%;
+}
+#identifyChart{
+  padding:2% 2%;
+}
+#purpose{
+  margin:1% 5%;
+  padding:2% 10%;
+  background-color: #28773d;
+  font-family: "Roboto Condensed";
+  color:white;
+  line-height: 21px;
+  font-size: 20px;
+  border-radius: 15px;
+}
+#imgdiv{
+  padding:2%;
+  background-color: #28773d;
+  border-radius: 15px;
+}
+#chart{
+  display: grid;
+  grid-template-columns: 34% 33% 33%;
+}
+#identifyChart h2{
+  font-family: "Barlow Semi Condensed";
+  text-align:center;
+  padding:1%;
+  font-size: 30px;
+}
+
+
+.logo{
+  width:50px;
+  height:40px;
+  margin-top: -5px;
+}
+.navGrid-logowrapper{
+  display:grid;
+  grid-template-columns: 40px 100px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.grid2{
+  display: grid;
+  grid-template-rows: auto auto;
+  padding:30% 5%;
+}
+.grid2 button{
+  margin:2% 0%;
+  padding:2%;
+  box-shadow: 5px 5px 5px #c9c9c9;
+  background-color: #3ee969;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.grid2 h4{
+  margin:2% 0%;
+  padding:2%;
+  box-shadow: 5px 5px 5px #c9c9c9;
+  background-color: #405253;
+  color:white;
+  font-family: "Roboto Condensed";
+  font-size: 15px;
+  letter-spacing: 1px;
+  height:20px;
+}
+.ques{
+  display:grid;
+  grid-template-columns:500px 500px 300px;
+  grid-template-rows: auto;
+  padding:1% 0%;
+  text-align: left;
+  font-size: 18px;
+  font-family: sans-serif;
+  color:white;
+}
+.choices button{
+  background-color: #85b7A5;
+  margin:0% 3%;
+  font-size: 12px;
+  padding:5px 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  border:none;
+}
+.choices button:hover {
+  background-color: #405253;
+  margin:0% 3%;
+  font-size: 12px;
+  color:white;
+}
+.choices{
+  display:grid;
+  grid-template-columns: auto auto auto auto;
+}
+.chartimg{
+  width:250px;
+  height:250px;
+  border-radius: 10px;
+  margin:20% 22%;
+}
+.points{
+  padding:1% 5%;
+  text-align: center;
+}
+.scoresheet{
+  width:80%;
+  margin:0% 10%;
+}
